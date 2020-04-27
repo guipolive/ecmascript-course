@@ -1,4 +1,7 @@
 {
     "presets":["@babel/preset-env"],// preset-env converte o nosso código para um que o navegador entenda de acordo com o nosso projeto (web, react, react-native)
-    "plugins": ["@babel/plugin-proposal-object-rest-spread"] // plugin que faz com que o babel possa entender o uso de rest-spread no nosso código
+    "plugins": [
+        "@babel/plugin-proposal-object-rest-spread", // plugin que faz com que o babel possa entender o uso de rest-spread no nosso código
+        "@babel/plugin-transform-async-to-generator" // plugin que nos permite usar o asyn/await ( funcionalidade do ES8 que ainda não está implementada na versão do babel que estamos usando)
+    ]
 }

@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './src/main.js', // nosso arquivo principal
+    entry: ['@babel/polyfill', './src/main.js'], // carregando a lib babel polyfill e depois nosso arquivo principal
     output: {
         path: __dirname + '/public',
         filename: 'bundle.js',
