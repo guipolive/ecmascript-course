@@ -1,0 +1,4 @@
+{
+    "presets":["@babel/preset-env"],// preset-env converte o nosso código para um que o navegador entenda de acordo com o nosso projeto (web, react, react-native)
+    "plugins": ["@babel/plugin-proposal-object-rest-spread"] // plugin que faz com que o babel possa entender o uso de rest-spread no nosso código
+}
