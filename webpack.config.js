@@ -5,7 +5,8 @@ module.exports = {
         filename: 'bundle.js',
     },
     devServer: {
-        contentBase: __dirname + '/public'
+        contentBase: __dirname + '/public',
+        // historyApiFallback: true
     },
     module: {
         rules: [
